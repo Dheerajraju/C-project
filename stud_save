@@ -1,0 +1,15 @@
+// main function for save the records
+
+
+#include"header.h"
+void stud_save(ST *ptr)
+{
+        ST *temp=ptr;
+        FILE *fp=fopen("student.dat","w");
+        while(temp)
+        {
+                fprintf(fp,"%d %s %f\n",temp->roll,temp->name,temp->percentage);
+                temp=temp->next;
+        }
+
+}

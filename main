@@ -1,0 +1,35 @@
+#include"header.h"
+int main()
+{
+        char op;
+        ST *hptr=0;
+        while(1)
+        {
+                label:
+                        menu_main();
+                        scanf(" %c",&op);
+                        switch(op)
+                        {
+                                case 'a':
+                                case 'A': stud_add(&hptr); break;
+                                case 'd':
+                                case 'D': stud_del(&hptr); break;
+                                case 's':
+                                case 'S': stud_show(hptr); break;
+                                case 'm':
+                                case 'M': stud_mod(&hptr); break;
+                                case 'v':
+                                case 'V': stud_save(hptr); break;
+                                case 'e':
+                                case 'E': stud_exit(hptr); return 0; break;
+                                case 't':
+                                case 'T': stud_sort(hptr); break;
+                                case 'l':
+                                case 'L': delete_all(&hptr); break;
+                                case 'r':
+                                case 'R': rev_list(&hptr); break;
+                                default: printf("Invalid Option!\n"); goto label;
+                       }
+        }
+}
+    

@@ -1,0 +1,18 @@
+// Main Function for reversed the list
+
+
+#include"header.h"
+void rev_list(ST **ptr)
+{
+        ST *q,*r;
+        q=0;
+        while(*ptr)
+        {
+                r=q;
+                q=*ptr;
+                *ptr=(*ptr)->next;
+                q->next=r;
+        }
+        *ptr=q;
+
+}
