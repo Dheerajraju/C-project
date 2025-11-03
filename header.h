@@ -2,9 +2,6 @@
 #include<stdlib.h>
 #include<string.h>
 
-
-// structure typedef for student records
-
 typedef struct st
 {
         int roll;
@@ -12,9 +9,6 @@ typedef struct st
         float percentage;
         struct st *next;
 }ST;
-
-
-// main functions definition
 
 void stud_add(ST **);
 void stud_del(ST **);
@@ -26,8 +20,6 @@ void stud_sort(ST *);
 void delete_all(ST **);
 void rev_list(ST **);
 
-
-// Sub functions definition
 
 void show(ST *);
 void menu_main(void);
@@ -45,3 +37,4 @@ int node_count(ST *);
                        
 
                                 
+
