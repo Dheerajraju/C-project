@@ -1,6 +1,3 @@
-// sub function show particular record
-
-
 #include"header.h"
 void show(ST *ptr)
 {
@@ -12,8 +9,6 @@ void show(ST *ptr)
         printf("|_______________________________________________________|\n");
 }
 
-
-// main function for  show the records
 
 void stud_show(ST *ptr)
 {
@@ -29,4 +24,5 @@ void stud_show(ST *ptr)
         printf("|_______________________________________________________|\n");
 
 }
+
 
