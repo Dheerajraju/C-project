@@ -1,6 +1,3 @@
-// main function for modify the records
-
-
 #include"header.h"
 void stud_mod(ST **rec)
 {
@@ -20,8 +17,6 @@ void stud_mod(ST **rec)
                 }
 }
 
-
-// sub function for modify using roll number
 
 void mod_roll(ST **ptr)
 {
@@ -59,8 +54,6 @@ void mod_roll(ST **ptr)
         return;
 }
 
-
-//sub function for modify using name
 
 void mod_name(ST **ptr)
 {
@@ -120,8 +113,6 @@ void mod_name(ST **ptr)
 }
 
 
-// sub function for modify using percentage
-
 void mod_per(ST **ptr)
 {
         ST *temp=*ptr;
@@ -179,3 +170,4 @@ void mod_per(ST **ptr)
         }
 
 }
+
