@@ -1,7 +1,5 @@
 #include"header.h"
 
-// menu function for sort
-
 void menu_sort(void)
 {
         printf(" ____________________________________________\n");
@@ -13,7 +11,6 @@ void menu_sort(void)
 }
 
 
-//menu function for exit
 
 void menu_exit(void)
 {
@@ -25,7 +22,6 @@ void menu_exit(void)
 }
 
 
-// menu function for modifiy the records
 
 void menu_mod(void)
 {
@@ -39,7 +35,6 @@ void menu_mod(void)
         printf("|_______________________________________________________|\n");
 }
 
-// menu function for delete
 
 void menu_del(void)
 {
@@ -53,7 +48,6 @@ void menu_del(void)
 }
 
 
-// menu function for options
 
 void menu_main(void)
 {
@@ -75,3 +69,4 @@ void menu_main(void)
         printf("|   Enter your choice:                      |\n");
         printf("|___________________________________________|\n");
 }
+
