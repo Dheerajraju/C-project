@@ -1,6 +1,3 @@
-// main function for add the records of the student (add_end)
-
-
 #include"header.h"
 void stud_add(ST **ptr)
 {
@@ -27,3 +24,4 @@ void stud_add(ST **ptr)
         }
 
 }
+
