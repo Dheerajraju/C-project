@@ -1,6 +1,3 @@
-// Main Function for reversed the list
-
-
 #include"header.h"
 void rev_list(ST **ptr)
 {
@@ -16,3 +13,4 @@ void rev_list(ST **ptr)
         *ptr=q;
 
 }
+
