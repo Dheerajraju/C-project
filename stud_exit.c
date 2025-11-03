@@ -1,6 +1,3 @@
-//main function for exit function
-
-
 #include"header.h"
 void stud_exit(ST *ptr)
 {
@@ -18,4 +15,5 @@ void stud_exit(ST *ptr)
                 }
 
 }
+
 
