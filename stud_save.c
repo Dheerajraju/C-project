@@ -1,6 +1,3 @@
-// main function for save the records
-
-
 #include"header.h"
 void stud_save(ST *ptr)
 {
@@ -13,3 +10,4 @@ void stud_save(ST *ptr)
         }
 
 }
+
