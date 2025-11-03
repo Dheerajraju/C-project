@@ -1,6 +1,3 @@
-// main delete function
-
-
 #include"header.h"
 void stud_del(ST **ptr)
 {
@@ -18,8 +15,6 @@ void stud_del(ST **ptr)
                 }
 }
 
-
-// sub function for delete using roll number
 
 void delete_roll(ST **ptr)
 {
@@ -54,7 +49,7 @@ void delete_roll(ST **ptr)
                 printf("Roll Numbers are not matched\n");
                 goto label;
 }
-// sub function for delete using name
+
 
 void delete_name(ST **ptr)
 {
@@ -110,3 +105,4 @@ void delete_name(ST **ptr)
         }
 
 }
+
