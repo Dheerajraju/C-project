@@ -1,8 +1,13 @@
 #include"header.h"
 void stud_mod(ST **rec)
 {
-        label:
+        if(*rec == NULL)
+        {
+                printf("No records to modify\n");
+                return;
+        }
                 char op;
+        label:
                 menu_mod();
                 scanf(" %c",&op);
                 switch(op)
@@ -170,4 +175,5 @@ void mod_per(ST **ptr)
         }
 
 }
+
 
