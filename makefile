@@ -1,7 +1,7 @@
 student: main.o stud_add.o stud_del.o stud_show.o stud_mod.o stud_save.o stud_exit.o stud_sort.o delete_all.o rev_all.o menu.o
         cc  main.o stud_add.o stud_del.o stud_show.o stud_mod.o stud_save.o stud_exit.o stud_sort.o delete_all.o rev_all.o menu.o -o student
 
-main.o: main.c header.h
+main.o: main.c 
         cc -c main.c
 stud_add.o: stud_add.c header.h
         cc -c stud_add.c
@@ -22,5 +22,5 @@ delete_all.o: delete_all.c header.h
 rev_all.o: rev_all.c header.h
         cc -c rev_all.c
 menu.o: menu.c header.h
-
         cc -c menu.c
+
