@@ -1,7 +1,7 @@
 #include"header.h"
 
 // Function to delete all nodes from the linked list
-void delete_all(ST **ptr)
+void stud_deleteall(ST **ptr)
 {
     // If the head pointer is NULL, there are no records to delete
     if (!*ptr)
@@ -22,3 +22,4 @@ void delete_all(ST **ptr)
 
     printf("All Records Deleted successfully\n");
 }
+
