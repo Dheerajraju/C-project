@@ -2,6 +2,11 @@
 void stud_del(ST **ptr)
 {
         char op;
+        if(*ptr == NULL)
+        {
+                printf("No records to delete\n");
+                return;
+        }
         label:
                 menu_del();
                 scanf(" %c",&op);
@@ -105,4 +110,5 @@ void delete_name(ST **ptr)
         }
 
 }
+
 
